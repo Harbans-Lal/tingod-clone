@@ -1,0 +1,155 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Montserrat-Bold";
+}
+
+h2 {
+  color: #fff;
+  width: 60%;
+  margin: 0 auto;
+  line-height: 1;
+
+}
+h3 {
+  font-weight: bold;
+}
+p {
+  color: grey;
+}
+
+
+
+
+
+.big-heading {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+#title {
+  color: white;
+  background-color: #ff4c68;
+  text-align: left;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+
+
+.testimonial-img {
+  width: 10%;
+  padding: 1%;
+  border-radius: 100%;
+}
+#press {
+  background-color:#ef8172;
+}
+.press-logo {
+  width: 20%;
+  padding: 10px 30px 80px;
+}
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+
+/* Navigation bar */
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+/* Download Button */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+
+.tittle-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 100px;
+}
+/* features section */
+#features {
+  padding: 7% 15% ;
+  background-color: #fff;
+  position: relative;
+
+}
+.features-box {
+  padding: 5%;
+}
+.icon {
+  color: #ef8172;
+  margin-bottom:1rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Pricing section */
+
+#pricing {
+  padding: 100px;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  font-family: Montserrat;
+  color: #fff;
+}
+.cta-h {
+  font-size: 3.5rem;
+}
+
+#footer {
+  padding: 5% 5%;
+}
+.footer-icon {
+  margin: 0 3px;
+}
+.footer-p {
+  padding:2% 0;
+  font-size: 14px;
+}
+
+@media (max-width: 1028px){
+  .tittle-image {
+    position: static;
+    transform: rotate(0);
+    text-align: center;
+  }
+}
